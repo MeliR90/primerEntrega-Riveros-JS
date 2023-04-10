@@ -33,10 +33,10 @@ function calculoCosto() {
     }
 }
 
-function calculoCuotas(){
+function calculoCuotas() {
     cuotas = parseInt(prompt("Ingrese cantidad de cuotas a pagar: "));
 
-    alert("El precio por cuota es de: $ "+ (costoTotal/cuotas).toFixed(2));
+    alert("El precio por cuota es de: $ " + (costoTotal / cuotas).toFixed(2));
 }
 
 
